@@ -795,9 +795,9 @@
         "index": 0
       },
       "emissiveFactor": [
-        1.0,
-        1.0,
-        1.0
+        0.75,
+        0.75,
+        0.75
       ],
       "doubleSided": true,
       "name": "Material.004"
@@ -814,9 +814,9 @@
         "index": 1
       },
       "emissiveFactor": [
-        1.0,
-        1.0,
-        1.0
+        0.75,
+        0.75,
+        0.75
       ],
       "doubleSided": true,
       "name": "Material.003"
@@ -833,9 +833,9 @@
         "index": 2
       },
       "emissiveFactor": [
-        1.0,
-        1.0,
-        1.0
+        0.75,
+        0.75,
+        0.75
       ],
       "doubleSided": true,
       "name": "garaz_B"
