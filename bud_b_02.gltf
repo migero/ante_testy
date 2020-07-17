@@ -775,6 +775,11 @@
         "metallicFactor": 0.0,
         "roughnessFactor": 0.5
       },
+      "emissiveFactor": [
+        0.490566015,
+        0.490566015,
+        0.490566015
+      ],
       "doubleSided": true,
       "name": "szary'"
     },
@@ -786,10 +791,13 @@
         "metallicFactor": 0.0,
         "roughnessFactor": 0.5
       },
+      "emissiveTexture": {
+        "index": 0
+      },
       "emissiveFactor": [
-        0.0,
-        0.0,
-        0.0
+        1.0,
+        1.0,
+        1.0
       ],
       "doubleSided": true,
       "name": "Material.004"
@@ -802,10 +810,13 @@
         "metallicFactor": 0.0,
         "roughnessFactor": 0.5
       },
+      "emissiveTexture": {
+        "index": 1
+      },
       "emissiveFactor": [
-        0.0,
-        0.0,
-        0.0
+        1.0,
+        1.0,
+        1.0
       ],
       "doubleSided": true,
       "name": "Material.003"
@@ -818,27 +829,32 @@
         "metallicFactor": 0.0,
         "roughnessFactor": 0.5
       },
+      "emissiveTexture": {
+        "index": 2
+      },
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
       "doubleSided": true,
       "name": "garaz_B"
     },
     {
       "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.8,
-          0.8,
-          0.8,
-          1.0
-        ],
         "baseColorTexture": {
           "index": 3
         },
         "metallicFactor": 0.0,
         "roughnessFactor": 0.5
       },
+      "emissiveTexture": {
+        "index": 3
+      },
       "emissiveFactor": [
-        0.0,
-        0.0,
-        0.0
+        1.0,
+        1.0,
+        1.0
       ],
       "doubleSided": true,
       "name": "Material.005"
@@ -851,6 +867,14 @@
         "metallicFactor": 0.0,
         "roughnessFactor": 0.5
       },
+      "emissiveTexture": {
+        "index": 4
+      },
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
       "doubleSided": true,
       "name": "zaslony_b1"
     }
