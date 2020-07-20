@@ -4169,8 +4169,7 @@
 	],
 	"materials": [
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4184,8 +4183,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4199,8 +4197,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4214,8 +4211,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4229,8 +4225,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4244,8 +4239,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4259,8 +4253,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4274,8 +4267,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4289,8 +4281,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4304,8 +4295,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4319,8 +4309,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4334,8 +4323,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4349,8 +4337,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4364,8 +4351,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4379,8 +4365,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4394,8 +4379,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4409,8 +4393,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4424,8 +4407,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4439,8 +4421,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4454,8 +4435,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4469,8 +4449,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4484,8 +4463,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4499,8 +4477,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4514,8 +4491,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4529,8 +4505,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4544,8 +4519,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4559,8 +4533,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4574,8 +4547,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4589,8 +4561,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4604,8 +4575,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4619,8 +4589,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4634,8 +4603,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4649,8 +4617,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4664,8 +4631,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4679,8 +4645,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4694,8 +4659,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4709,8 +4673,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4724,8 +4687,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4739,8 +4701,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4754,8 +4715,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4769,8 +4729,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4784,8 +4743,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4799,8 +4757,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4814,8 +4771,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4829,8 +4785,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4844,8 +4799,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4859,8 +4813,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4874,8 +4827,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4889,8 +4841,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4904,8 +4855,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4919,8 +4869,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4934,8 +4883,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4949,8 +4897,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4964,8 +4911,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4979,8 +4925,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
@@ -4994,8 +4939,7 @@
 			"pbrMetallicRoughness": {}
 		},
 		{
-			"alphaMode": "MASK",
-			"doubleSided": true,
+
 			"emissiveFactor": [
 				1.0,
 				1.0,
