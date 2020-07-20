@@ -29,7 +29,7 @@
   <div class="arjs-loader">
     <div>Loading, please wait...</div>
   </div>
-  <a-scene vr-mode-ui="enabled: false;" antialias= "true;" alpha= "true;" renderer="colorManagement: true; precision: medium" embedded arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: true;"
+  <a-scene vr-mode-ui="enabled: false;" antialias= "true;" alpha= "true;" renderer="colorManagement: true; precision: high" embedded arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: true;"
   >
     <!-- we use cors proxy to avoid cross-origin problems -->
     <a-nft
@@ -44,7 +44,7 @@
       </a-entity>
 	  <a-entity light="type: ambient; intensity: 1;"></a-entity>
     </a-nft>
-    <a-marker-camera camera="far:1000; near:0.01"></a-marker-camera>
+	<a-entity camera="active: true;far:100; near:0.00001" data-aframe-default-camera></a-entity>
   </a-scene>
 </body>
 </html>
