@@ -1,0 +1,407 @@
+{
+	"accessors": [
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 5605,
+			"max": [
+				0.2633640170097351,
+				0.4270341396331787,
+				0.004637240897864103
+			],
+			"min": [
+				-0.4163389801979065,
+				-0.2777622640132904,
+				-5.023617267608643
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 5605,
+			"max": [
+				0.9999759197235107,
+				0.9999480247497559,
+				0.7468559145927429
+			],
+			"min": [
+				-0.9999961853027344,
+				-0.9999990463256836,
+				-0.9138793349266052
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 5605,
+			"max": [
+				0.9995144605636597,
+				0.9998179078102112,
+				0.9999947547912598,
+				1.0
+			],
+			"min": [
+				-0.9993948936462402,
+				-0.9990129470825195,
+				-0.9999977350234985,
+				-1.0
+			],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 5605,
+			"max": [
+				0.9980229139328003,
+				0.9992499947547913
+			],
+			"min": [
+				0.000750000006519258,
+				0.0007500052452087402
+			],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 9636,
+			"max": [
+				5604.0
+			],
+			"min": [
+				0.0
+			],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 5,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 260,
+			"max": [
+				0.7978858947753906,
+				0.9264494180679321,
+				1.815887689590454
+			],
+			"min": [
+				-3.1912732124328613,
+				-3.335825204849243,
+				-1.985542893409729
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 6,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 260,
+			"max": [
+				0.9813298583030701,
+				0.8580091595649719,
+				0.19163739681243896
+			],
+			"min": [
+				-0.8691993355751038,
+				-0.9392648339271545,
+				-0.9919482469558716
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 7,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 260,
+			"max": [
+				0.9954936504364014,
+				0.9963948130607605,
+				0.9814658164978027,
+				1.0
+			],
+			"min": [
+				-0.9927753210067749,
+				-0.9958875775337219,
+				-0.9993487000465393,
+				1.0
+			],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 8,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 260,
+			"max": [
+				0.9912816882133484,
+				0.9994999766349792
+			],
+			"min": [
+				0.0005000000237487257,
+				0.0004999637603759766
+			],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 9,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 390,
+			"max": [
+				259.0
+			],
+			"min": [
+				0.0
+			],
+			"type": "SCALAR"
+		}
+	],
+	"asset": {
+		"generator": "Gestaltor 2020.2.1 Alpha 'Zuckerwatte' (CI-38fb8ee1*)",
+		"version": "2.0"
+	},
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 67260,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 67260,
+			"byteOffset": 67260
+		},
+		{
+			"buffer": 0,
+			"byteLength": 89680,
+			"byteOffset": 134520
+		},
+		{
+			"buffer": 0,
+			"byteLength": 44840,
+			"byteOffset": 224200
+		},
+		{
+			"buffer": 0,
+			"byteLength": 19272,
+			"byteOffset": 269040
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3120,
+			"byteOffset": 288312
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3120,
+			"byteOffset": 291432
+		},
+		{
+			"buffer": 0,
+			"byteLength": 4160,
+			"byteOffset": 294552
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2080,
+			"byteOffset": 298712
+		},
+		{
+			"buffer": 0,
+			"byteLength": 780,
+			"byteOffset": 300792
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 301572,
+			"uri": "Group2112589904.bin"
+		}
+	],
+	"extensionsRequired": [
+		"KHR_materials_unlit"
+	],
+	"extensionsUsed": [
+		"KHR_materials_unlit"
+	],
+	"images": [
+		{
+			"mimeType": "image/png",
+			"name": "drzewo1",
+			"uri": "drzewo1.png"
+		},
+		{
+			"mimeType": "image/png",
+			"name": "drzewo_liscie",
+			"uri": "drzewo_liscie.png"
+		}
+	],
+	"materials": [
+		{
+			"doubleSided": true,
+			"extensions": {
+				"KHR_materials_unlit": {}
+			},
+			"name": "drzewo1",
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 0
+				},
+				"metallicFactor": 0.0,
+				"roughnessFactor": 0.0
+			}
+		},
+		{
+			"alphaMode": "MASK",
+			"doubleSided": true,
+			"emissiveFactor": [
+				1.0,
+				1.0,
+				1.0
+			],
+			"emissiveTexture": {
+				"index": 1
+			},
+			"extensions": {
+				"KHR_materials_unlit": {}
+			},
+			"name": "drzewo_liscie",
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 1
+				},
+				"metallicFactor": 0.0,
+				"roughnessFactor": 0.5
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "Object1746166553",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 1,
+						"POSITION": 0,
+						"TANGENT": 2,
+						"TEXCOORD_0": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "Plane669",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 6,
+						"POSITION": 5,
+						"TANGENT": 7,
+						"TEXCOORD_0": 8
+					},
+					"indices": 9,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"children": [
+				1,
+				2
+			],
+			"name": "Group2112589904",
+			"rotation": [
+				0.281130344,
+				0.648818731,
+				-0.648818731,
+				0.281130344
+			],
+			"scale": [
+				0.791902,
+				0.791902,
+				0.791902
+			],
+			"translation": [
+				-66.8492355,
+				3.172974,
+				75.52158
+			]
+		},
+		{
+			"mesh": 0,
+			"name": "Object1746166553",
+			"rotation": [
+				-1.63740186e-08,
+				-7.895388e-08,
+				0.819149137,
+				-0.5735806
+			],
+			"scale": [
+				1.468368,
+				1.468368,
+				1.227494
+			],
+			"translation": [
+				-0.304101557,
+				-0.0123046869,
+				3.46508145
+			]
+		},
+		{
+			"mesh": 1,
+			"name": "Plane669",
+			"rotation": [
+				0.0,
+				0.0,
+				0.0,
+				-1.0
+			],
+			"translation": [
+				1.1857421399999999,
+				1.34394526,
+				-1.48523068
+			]
+		}
+	],
+	"samplers": [
+		{},
+		{
+			"magFilter": 9728,
+			"minFilter": 9984
+		}
+	],
+	"scene": 0,
+	"scenes": [
+		{
+			"name": "Group2112589904",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"textures": [
+		{
+			"name": "drzewo1",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "drzewo_liscie",
+			"sampler": 1,
+			"source": 1
+		}
+	]
+}
