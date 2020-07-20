@@ -14568,7 +14568,7 @@
 	"materials": [
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 0
 			},
@@ -14586,7 +14586,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 1
 			},
@@ -14604,7 +14604,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 2
 			},
@@ -14635,7 +14635,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 4
 			},
@@ -14653,7 +14653,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 5
 			},
@@ -14671,7 +14671,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 6
 			},
@@ -14689,7 +14689,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"extensions": {
 				"KHR_materials_unlit": {}
 			},
@@ -14704,7 +14704,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 8
 			},
@@ -14722,7 +14722,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 9
 			},
@@ -14740,7 +14740,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 10
 			},
@@ -14758,7 +14758,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"extensions": {
 				"KHR_materials_unlit": {}
 			},
@@ -14773,7 +14773,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 12
 			},
@@ -14791,7 +14791,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 13
 			},
@@ -14809,7 +14809,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 14
 			},
@@ -14827,7 +14827,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 15
 			},
@@ -14845,7 +14845,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 16
 			},
@@ -14863,7 +14863,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 17
 			},
@@ -14881,7 +14881,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 18
 			},
@@ -14899,7 +14899,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 19
 			},
@@ -14917,7 +14917,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 20
 			},
@@ -14935,7 +14935,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 21
 			},
@@ -14953,7 +14953,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 22
 			},
@@ -14971,7 +14971,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 23
 			},
@@ -14989,7 +14989,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 24
 			},
@@ -15013,7 +15013,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 25
 			},
@@ -15037,7 +15037,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 26
 			},
@@ -15061,7 +15061,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 27
 			},
@@ -15079,7 +15079,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 28
 			},
@@ -15103,7 +15103,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 29
 			},
@@ -15127,7 +15127,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 30
 			},
@@ -15145,7 +15145,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 31
 			},
@@ -15169,7 +15169,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 32
 			},
@@ -15187,7 +15187,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 33
 			},
@@ -15205,7 +15205,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 34
 			},
@@ -15223,7 +15223,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 35
 			},
@@ -15241,7 +15241,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 36
 			},
@@ -15259,7 +15259,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 37
 			},
@@ -15283,7 +15283,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 38
 			},
@@ -15301,7 +15301,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 39
 			},
@@ -15319,7 +15319,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"extensions": {
 				"KHR_materials_unlit": {}
 			},
@@ -15334,7 +15334,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 41
 			},
@@ -15352,7 +15352,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"extensions": {
 				"KHR_materials_unlit": {}
 			},
@@ -15367,7 +15367,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 43
 			},
@@ -15385,7 +15385,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 44
 			},
@@ -15403,7 +15403,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 45
 			},
@@ -15421,7 +15421,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 46
 			},
@@ -15439,7 +15439,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 47
 			},
@@ -15457,7 +15457,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 48
 			},
@@ -15475,7 +15475,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 49
 			},
@@ -15493,7 +15493,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 50
 			},
@@ -15511,7 +15511,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 51
 			},
@@ -15529,7 +15529,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 52
 			},
@@ -15547,7 +15547,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 53
 			},
@@ -15571,7 +15571,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 54
 			},
@@ -15589,7 +15589,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 42
 			},
@@ -15607,7 +15607,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 55
 			},
@@ -15625,7 +15625,7 @@
 		},
 		{
 			"alphaMode": "MASK",
-			"doubleSided": true,
+			"doubleSided": false,
 			"emissiveTexture": {
 				"index": 56
 			},
