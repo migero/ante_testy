@@ -1,233 +1,374 @@
 {
-	"accessors": [
-		{
-			"bufferView": 0,
-			"byteOffset": 0,
-			"componentType": 5126,
-			"count": 24,
-			"max": [
-				0.5,
-				0.5,
-				0.5
-			],
-			"min": [
-				-0.5,
-				-0.5,
-				-0.5
-			],
-			"type": "VEC3"
-		},
-		{
-			"bufferView": 1,
-			"byteOffset": 0,
-			"componentType": 5126,
-			"count": 24,
-			"max": [
-				1.0,
-				1.0,
-				1.0
-			],
-			"min": [
-				-1.0,
-				-1.0,
-				-1.0
-			],
-			"type": "VEC3"
-		},
-		{
-			"bufferView": 2,
-			"byteOffset": 0,
-			"componentType": 5126,
-			"count": 24,
-			"max": [
-				0.0,
-				0.0,
-				1.0,
-				1.0
-			],
-			"min": [
-				-1.0,
-				0.0,
-				-1.0,
-				1.0
-			],
-			"type": "VEC4"
-		},
-		{
-			"bufferView": 3,
-			"byteOffset": 0,
-			"componentType": 5126,
-			"count": 24,
-			"max": [
-				1.0,
-				1.0
-			],
-			"min": [
-				0.0,
-				0.0
-			],
-			"type": "VEC2"
-		},
-		{
-			"bufferView": 4,
-			"byteOffset": 0,
-			"componentType": 5126,
-			"count": 24,
-			"max": [
-				0.9966580867767334,
-				0.9959442615509033
-			],
-			"min": [
-				0.004055766388773918,
-				0.3471641540527344
-			],
-			"type": "VEC2"
-		},
-		{
-			"bufferView": 5,
-			"byteOffset": 0,
-			"componentType": 5121,
-			"count": 36,
-			"max": [
-				23.0
-			],
-			"min": [
-				0.0
-			],
-			"type": "SCALAR"
-		}
-	],
-	"asset": {
-		"generator": "Gestaltor 2020.2.1 Alpha 'Zuckerwatte' (CI-38fb8ee1*)",
-		"version": "2.0"
-	},
-	"bufferViews": [
-		{
-			"buffer": 0,
-			"byteLength": 288,
-			"byteOffset": 0
-		},
-		{
-			"buffer": 0,
-			"byteLength": 288,
-			"byteOffset": 288
-		},
-		{
-			"buffer": 0,
-			"byteLength": 384,
-			"byteOffset": 576
-		},
-		{
-			"buffer": 0,
-			"byteLength": 192,
-			"byteOffset": 960
-		},
-		{
-			"buffer": 0,
-			"byteLength": 192,
-			"byteOffset": 1152
-		},
-		{
-			"buffer": 0,
-			"byteLength": 36,
-			"byteOffset": 1344
-		}
-	],
-	"buffers": [
-		{
-			"byteLength": 1380,
-			"uri": "Cube.bin"
-		}
-	],
-	"cameras": [
-		{
-			"perspective": {
-				"yfov": 0.8,
-				"zfar": 50.0,
-				"znear": 0.001
-			},
-			"type": "perspective"
-		}
-	],
-	"images": [
-		{
-			"mimeType": "image/png",
-			"name": "bud_A_mirror_002",
-			"uri": "bud_A_mirror_002.png"
-		}
-	],
-	"materials": [
-		{
-			"doubleSided": false,
-			"emissiveFactor": [
-				1.0,
-				1.0,
-				1.0
-			],
-			"emissiveTexture": {
-				"index": 0
-			},
-			"name": "budynek_A 5"
-		}
-	],
-	"meshes": [
-		{
-			"name": "Cube",
-			"primitives": [
-				{
-					"attributes": {
-						"NORMAL": 1,
-						"POSITION": 0,
-						"TANGENT": 2,
-						"TEXCOORD_0": 3,
-						"TEXCOORD_1": 4
-					},
-					"indices": 5,
-					"material": 0,
-					"mode": 4
-				}
-			]
-		}
-	],
-	"nodes": [
-		{
-			"mesh": 0,
-			"name": "Cube",
-			"rotation": [
-				0.0,
-				0.0,
-				0.0,
-				-1.0
-			],
-			"scale": [
-				8.717,
-				8.717,
-				8.717
-			],
-			"translation": [
-				0.0039385,
-				4.96,
-				3.7
-			]
-		}
-	],
-	"samplers": [
-		{}
-	],
-	"scene": 0,
-	"scenes": [
-		{
-			"name": "Cube",
-			"nodes": [
-				0
-			]
-		}
-	],
-	"textures": [
-		{
-			"name": "bud_A_mirror_002",
-			"sampler": 0,
-			"source": 0
-		}
-	]
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.2.20",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "nodes" : [
+                10
+            ],
+            "name" : "Scene"
+        }
+    ],
+    "nodes" : [
+        {
+            "translation" : [
+                0.003938499838113785,
+                4.959999084472656,
+                15.755144119262695
+            ],
+            "mesh" : 0,
+            "name" : "Cube",
+            "scale" : [
+                8.717000007629395,
+                8.716998100280762,
+                8.716998100280762
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "polySurface55_Material #21_0"
+        },
+        {
+            "name" : "polySurface55",
+            "children" : [
+                1
+            ]
+        },
+        {
+            "name" : "polySurface52",
+            "children" : [
+                2
+            ]
+        },
+        {
+            "name" : "polySurface49",
+            "children" : [
+                3
+            ]
+        },
+        {
+            "rotation" : [
+                0,
+                -0.7071068286895752,
+                -0.7071068286895752,
+                5.338508657359853e-08
+            ],
+            "scale" : [
+                0.10000000149011612,
+                0.10000000149011612,
+                0.10000000149011612
+            ],
+            "name" : "CH_trex",
+            "children" : [
+                4
+            ]
+        },
+        {
+            "name" : "polySurface58"
+        },
+        {
+            "name" : "RootNode",
+            "children" : [
+                5,
+                6
+            ]
+        },
+        {
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "name" : "trex-finish.FBX",
+            "children" : [
+                0,
+                7
+            ]
+        },
+        {
+            "name" : "RootNode (model correction matrix)",
+            "children" : [
+                8
+            ]
+        },
+        {
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ],
+            "name" : "RootNode (gltf orientation matrix)",
+            "children" : [
+                9
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "emissiveFactor" : [
+                1,
+                1,
+                1
+            ],
+            "emissiveTexture" : {
+                "texCoord" : 0,
+                "index" : 0
+            },
+            "name" : "budynek_A 5",
+            "pbrMetallicRoughness" : {
+                "metallicFactor" : 1,
+                "baseColorFactor" : [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "roughnessFactor" : 1
+            }
+        },
+        {
+            "normalTexture" : {
+                "texCoord" : 0,
+                "index" : 1
+            },
+            "name" : "Material_21_COLOR_0",
+            "pbrMetallicRoughness" : {
+                "metallicFactor" : 0,
+                "baseColorTexture" : {
+                    "texCoord" : 0,
+                    "index" : 2
+                },
+                "roughnessFactor" : 0.5008574724197388
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "primitives" : [
+                {
+                    "material" : 0,
+                    "indices" : 4,
+                    "attributes" : {
+                        "TEXCOORD_0" : 0,
+                        "POSITION" : 1,
+                        "NORMAL" : 2,
+                        "TEXCOORD_1" : 3
+                    }
+                }
+            ],
+            "name" : "Cube.001"
+        },
+        {
+            "primitives" : [
+                {
+                    "material" : 1,
+                    "indices" : 11,
+                    "attributes" : {
+                        "TEXCOORD_0" : 5,
+                        "TEXCOORD_1" : 6,
+                        "NORMAL" : 7,
+                        "POSITION" : 8,
+                        "TEXCOORD_2" : 9,
+                        "COLOR_0" : 10
+                    }
+                }
+            ],
+            "name" : "polySurface55_Material #21_0"
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "uri" : "bud_A_mirror_002.png",
+            "name" : "bud_A_mirror_002"
+        },
+        {
+            "mimeType" : "image/png",
+            "uri" : "Material_21_normal.png",
+            "name" : "Material_21_normal"
+        },
+        {
+            "mimeType" : "image/png",
+            "uri" : "Material_21_baseColor.png",
+            "name" : "Material_21_baseColor"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "type" : "VEC2",
+            "count" : 54,
+            "componentType" : 5126
+        },
+        {
+            "min" : [
+                -0.5,
+                -0.5,
+                -0.5
+            ],
+            "count" : 54,
+            "componentType" : 5126,
+            "bufferView" : 1,
+            "type" : "VEC3",
+            "max" : [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        {
+            "bufferView" : 2,
+            "type" : "VEC3",
+            "count" : 54,
+            "componentType" : 5126
+        },
+        {
+            "bufferView" : 3,
+            "type" : "VEC2",
+            "count" : 54,
+            "componentType" : 5126
+        },
+        {
+            "bufferView" : 4,
+            "type" : "SCALAR",
+            "count" : 144,
+            "componentType" : 5123
+        },
+        {
+            "bufferView" : 5,
+            "type" : "VEC2",
+            "count" : 3509,
+            "componentType" : 5126
+        },
+        {
+            "bufferView" : 6,
+            "type" : "VEC2",
+            "count" : 3509,
+            "componentType" : 5126
+        },
+        {
+            "bufferView" : 7,
+            "type" : "VEC3",
+            "count" : 3509,
+            "componentType" : 5126
+        },
+        {
+            "min" : [
+                -72.838134765625,
+                -395.850830078125,
+                -1.2295242547988892
+            ],
+            "count" : 3509,
+            "componentType" : 5126,
+            "bufferView" : 8,
+            "type" : "VEC3",
+            "max" : [
+                72.838134765625,
+                143.69198608398438,
+                258.82000732421875
+            ]
+        },
+        {
+            "bufferView" : 9,
+            "type" : "VEC2",
+            "count" : 3509,
+            "componentType" : 5126
+        },
+        {
+            "bufferView" : 10,
+            "type" : "VEC4",
+            "count" : 3509,
+            "componentType" : 5126
+        },
+        {
+            "bufferView" : 11,
+            "type" : "SCALAR",
+            "count" : 15606,
+            "componentType" : 5123
+        }
+    ],
+    "bufferViews" : [
+        {
+            "byteLength" : 432,
+            "byteOffset" : 0,
+            "buffer" : 0
+        },
+        {
+            "byteLength" : 648,
+            "byteOffset" : 432,
+            "buffer" : 0
+        },
+        {
+            "byteLength" : 648,
+            "byteOffset" : 1080,
+            "buffer" : 0
+        },
+        {
+            "byteLength" : 432,
+            "byteOffset" : 1728,
+            "buffer" : 0
+        },
+        {
+            "byteLength" : 288,
+            "byteOffset" : 2160,
+            "buffer" : 0
+        },
+        {
+            "byteLength" : 28072,
+            "byteOffset" : 2448,
+            "buffer" : 0
+        },
+        {
+            "byteLength" : 28072,
+            "byteOffset" : 30520,
+            "buffer" : 0
+        },
+        {
+            "byteLength" : 42108,
+            "byteOffset" : 58592,
+            "buffer" : 0
+        },
+        {
+            "byteLength" : 42108,
+            "byteOffset" : 100700,
+            "buffer" : 0
+        },
+        {
+            "byteLength" : 28072,
+            "byteOffset" : 142808,
+            "buffer" : 0
+        },
+        {
+            "byteLength" : 56144,
+            "byteOffset" : 170880,
+            "buffer" : 0
+        },
+        {
+            "byteLength" : 31212,
+            "byteOffset" : 227024,
+            "buffer" : 0
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 258236,
+            "uri" : "Cube.bin"
+        }
+    ]
 }
