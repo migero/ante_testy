@@ -1,220 +1,233 @@
 {
-  "accessors": [
-    {
-      "bufferView": 0,
-      "componentType": 5126,
-      "count": 24,
-      "type": "VEC3",
-      "max": [
-        0.5,
-        0.5,
-        0.5
-      ],
-      "min": [
-        -0.5,
-        -0.5,
-        -0.5
-      ]
-    },
-    {
-      "bufferView": 1,
-      "componentType": 5126,
-      "count": 24,
-      "type": "VEC3",
-      "max": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "min": [
-        -1.0,
-        -1.0,
-        -1.0
-      ]
-    },
-    {
-      "bufferView": 2,
-      "componentType": 5126,
-      "count": 24,
-      "type": "VEC4",
-      "max": [
-        0.0,
-        0.0,
-        1.0,
-        1.0
-      ],
-      "min": [
-        -1.0,
-        0.0,
-        -1.0,
-        1.0
-      ]
-    },
-    {
-      "bufferView": 3,
-      "componentType": 5126,
-      "count": 24,
-      "type": "VEC2",
-      "max": [
-        1.0,
-        1.0
-      ],
-      "min": [
-        0.0,
-        0.0
-      ]
-    },
-    {
-      "bufferView": 4,
-      "componentType": 5126,
-      "count": 24,
-      "type": "VEC2",
-      "max": [
-        0.9966580867767334,
-        0.99594426155090332
-      ],
-      "min": [
-        0.0040557663887739182,
-        0.34716415405273438
-      ]
-    },
-    {
-      "bufferView": 5,
-      "componentType": 5121,
-      "count": 36,
-      "type": "SCALAR",
-      "max": [
-        23.0
-      ],
-      "min": [
-        0.0
-      ]
-    }
-  ],
-  "asset": {
-    "version": "2.0"
-  },
-  "buffers": [
-    {
-      "uri": "Cube.bin",
-      "byteLength": 1380
-    }
-  ],
-  "bufferViews": [
-    {
-      "buffer": 0,
-      "byteLength": 288
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 288,
-      "byteLength": 288
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 576,
-      "byteLength": 384
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 960,
-      "byteLength": 192
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 1152,
-      "byteLength": 192
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 1344,
-      "byteLength": 36
-    }
-  ],
-  "images": [
-    {
-      "uri": "bud_A_mirror_002.png",
-      "name": "bud_A_mirror_002"
-    }
-  ],
-  "materials": [
-    {
-      "pbrMetallicRoughness": {
-        "baseColorTexture": {
-          "index": 0
-        },
-        "metallicFactor": 0.0,
-        "roughnessFactor": 0.5
-      },
-      "emissiveTexture": {
-        "index": 0
-      },
-      "emissiveFactor": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "doubleSided": true,
-      "name": "budynek_A 5"
-    }
-  ],
-  "meshes": [
-    {
-      "primitives": [
-        {
-          "attributes": {
-            "POSITION": 0,
-            "NORMAL": 1,
-            "TANGENT": 2,
-            "TEXCOORD_0": 3,
-            "TEXCOORD_1": 4
-          },
-          "indices": 5,
-          "material": 0
-        }
-      ],
-      "name": "Cube"
-    }
-  ],
-  "nodes": [
-    {
-      "mesh": 0,
-      "rotation": [
-        0.0,
-        0.0,
-        0.0,
-        -1.0
-      ],
-      "scale": [
-        8.717,
-        8.717,
-        8.717
-      ],
-      "translation": [
-        0.0039385,
-        4.96,
-        3.7
-      ],
-      "name": "Cube"
-    }
-  ],
-  "samplers": [
-    {}
-  ],
-  "scene": 0,
-  "scenes": [
-    {
-      "nodes": [
-        0
-      ],
-      "name": "Cube"
-    }
-  ],
-  "textures": [
-    {
-      "sampler": 0,
-      "source": 0,
-      "name": "bud_A_mirror_002"
-    }
-  ]
+	"accessors": [
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 24,
+			"max": [
+				0.5,
+				0.5,
+				0.5
+			],
+			"min": [
+				-0.5,
+				-0.5,
+				-0.5
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 24,
+			"max": [
+				1.0,
+				1.0,
+				1.0
+			],
+			"min": [
+				-1.0,
+				-1.0,
+				-1.0
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 24,
+			"max": [
+				0.0,
+				0.0,
+				1.0,
+				1.0
+			],
+			"min": [
+				-1.0,
+				0.0,
+				-1.0,
+				1.0
+			],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 24,
+			"max": [
+				1.0,
+				1.0
+			],
+			"min": [
+				0.0,
+				0.0
+			],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 24,
+			"max": [
+				0.9966580867767334,
+				0.9959442615509033
+			],
+			"min": [
+				0.004055766388773918,
+				0.3471641540527344
+			],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 5,
+			"byteOffset": 0,
+			"componentType": 5121,
+			"count": 36,
+			"max": [
+				23.0
+			],
+			"min": [
+				0.0
+			],
+			"type": "SCALAR"
+		}
+	],
+	"asset": {
+		"generator": "Gestaltor 2020.2.1 Alpha 'Zuckerwatte' (CI-38fb8ee1*)",
+		"version": "2.0"
+	},
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 288,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 288,
+			"byteOffset": 288
+		},
+		{
+			"buffer": 0,
+			"byteLength": 384,
+			"byteOffset": 576
+		},
+		{
+			"buffer": 0,
+			"byteLength": 192,
+			"byteOffset": 960
+		},
+		{
+			"buffer": 0,
+			"byteLength": 192,
+			"byteOffset": 1152
+		},
+		{
+			"buffer": 0,
+			"byteLength": 36,
+			"byteOffset": 1344
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 1380,
+			"uri": "Cube.bin"
+		}
+	],
+	"cameras": [
+		{
+			"perspective": {
+				"yfov": 0.8,
+				"zfar": 50.0,
+				"znear": 0.001
+			},
+			"type": "perspective"
+		}
+	],
+	"images": [
+		{
+			"mimeType": "image/png",
+			"name": "bud_A_mirror_002",
+			"uri": "bud_A_mirror_002.png"
+		}
+	],
+	"materials": [
+		{
+			"doubleSided": false,
+			"emissiveFactor": [
+				1.0,
+				1.0,
+				1.0
+			],
+			"emissiveTexture": {
+				"index": 0
+			},
+			"name": "budynek_A 5"
+		}
+	],
+	"meshes": [
+		{
+			"name": "Cube",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 1,
+						"POSITION": 0,
+						"TANGENT": 2,
+						"TEXCOORD_0": 3,
+						"TEXCOORD_1": 4
+					},
+					"indices": 5,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0,
+			"name": "Cube",
+			"rotation": [
+				0.0,
+				0.0,
+				0.0,
+				-1.0
+			],
+			"scale": [
+				8.717,
+				8.717,
+				8.717
+			],
+			"translation": [
+				0.0039385,
+				4.96,
+				3.7
+			]
+		}
+	],
+	"samplers": [
+		{}
+	],
+	"scene": 0,
+	"scenes": [
+		{
+			"name": "Cube",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"textures": [
+		{
+			"name": "bud_A_mirror_002",
+			"sampler": 0,
+			"source": 0
+		}
+	]
 }
