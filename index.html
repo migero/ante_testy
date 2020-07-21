@@ -29,21 +29,29 @@
   <div class="arjs-loader">
     <div>Loading, please wait...</div>
   </div>
-  <a-scene vr-mode-ui="enabled: false;" antialias= "true;" alpha= "true;" renderer="colorManagement: true; precision: high" embedded arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: true;"
+  <a-scene
+    vr-mode-ui="enabled: false;"
+    renderer="logarithmicDepthBuffer: true;"
+    embedded
+    arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
   >
     <!-- we use cors proxy to avoid cross-origin problems -->
     <a-nft
       type="nft"
-      url="ante_testy/dmg01_marker_008"
+      url="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/trex-image/trex"
       smooth="true"
-      smoothCount="2"
+      smoothCount="10"
       smoothTolerance=".01"
       smoothThreshold="5"
     >
-<a-entity gltf-model="Cube.gltf"  position="200 0 -200" scale="8 8 8"> </a-entity>
-	  <a-entity light="type: ambient; intensity: 1;"></a-entity>
+      <a-entity
+        gltf-model="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf"
+        scale="5 5 5"
+        position="400 150 0"
+      >
+      </a-entity>
     </a-nft>
-	
+    <a-entity camera></a-entity>
   </a-scene>
 </body>
 </html>
