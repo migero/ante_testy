@@ -1,6 +1,6 @@
 {
   "artoolkitUrl": "artoolkitNFT_wasm.js",
-  "addPath": "jsartoolkitNFT",
+  "addPath": "ante_testy/threejs",
   "cameraPara": "camera_para.dat",
   "videoSettings": {
     "width": {
