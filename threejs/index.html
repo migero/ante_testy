@@ -26,7 +26,7 @@
 
 			threeGLTFLoader.load("model\model1.glb", function (gltf) {
             model = gltf.scene.children[0];
-            model.name = 'Model;
+            model.name = 'Model';
 
             var animation = gltf.animations[0];
             var mixer = new THREE.AnimationMixer(model);
