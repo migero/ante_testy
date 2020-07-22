@@ -14,22 +14,32 @@
     <script src="stats.min.js"></script>
     <script src="three.min.js"></script>
 		<script src="arNFT.min.js"></script>
+		<script src='../GLTFLoader.js'></script>
 
     <script>
 
 			var nft = new ARnft(640, 480, 'config.json');
 
 			nft.init("pinball", true);
+			var threeGLTFLoader = new THREE.GLTFLoader();
+			var model;
 
-			var mat = new THREE.MeshLambertMaterial({color: 0xff0000});
-			var cubeGeom = new THREE.CubeGeometry(1,1,1);
-			var cube = new THREE.Mesh(cubeGeom, mat);
-			cube.position.z = 90;
-			cube.position.x = 90;
-			cube.position.y = 90;
-			cube.scale.set(180,180,180);
+			threeGLTFLoader.load("model\model1.glb", function (gltf) {
+            model = gltf.scene.children[0];
+            model.name = 'Model;
 
-			nft.add(cube);
+            var animation = gltf.animations[0];
+            var mixer = new THREE.AnimationMixer(model);
+            mixers.push(mixer);
+            var action = mixer.clipAction(animation);
+            action.play();
+
+            root.matrixAutoUpdate = false;
+            root.add(model);
+
+            model.position.z = 0;
+            model.position.x = 0;
+            model.position.y = 0;
 
     </script>
 </body>
