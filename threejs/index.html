@@ -4,99 +4,78 @@
 <head>
 	<meta charset="utf-8">
 	<title>NFT marker example with a WebWorker and Three.js</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-<style>
-html,body {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	text-align: center;
-	overflow-x: hidden;
-}
-.portrait canvas {
-	transform-origin: 0 0;
-	transform: rotate(-90deg) translateX(-100%);
-}
-.desktop canvas {
- 	transform: scale(-1, 1);
-}
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="nft-style.css">
 </head>
 <body>
 
-     
-<script src="artoolkit.min.js"></script>
-<script src="three.js"></script>
-<script src="GLTFLoader.js"></script>
-<script src="artoolkit.three.js"></script>
+<body class="loading">
+	<div id="loading" >
+			<img alt="ar.js logo" src="../resources/data/logo.gif" />
+			<span class="loading-text">Loading, please wait</span>
+	</div>
+  <!--
+  ==================
+  STATS
+  ==================
+  -->
+
+      <div id="stats" class="ui stats">
+
+          <div id="stats1" class="stats-item">
+              <p class="stats-item-title">
+                  Main
+              </p>
+          </div>
+
+          <div id="stats2" class="stats-item">
+              <p class="stats-item-title">
+                  Worker
+              </p>
+          </div>
+
+      </div>
+
+  <!--
+  ==================
+  CAMERA VIDEO & CANVAS
+  ==================
+  -->
+
+      <div id="app">
+          <video
+              loop
+              autoplay
+              muted
+              playsinline
+              id="video">
+          </video>
+
+          <canvas id="canvas"></canvas>
+      </div>
+
+      <a
+          href="pinball.jpg"
+          class="ui marker"
+          target="_blank">
+          🖼 Marker Image
+      </a>
+
+		<script src="three.min.js"></script>
+		<script src="stats.min.js"></script>
+    <script src="GLTFLoader.js"></script>
+    <script src="threejs_filter_worker_gltf.js"></script>
+		<script src="nftLoader_light.js"></script>
 
     <script>
-	window.ARThreeOnLoad = function() {
+     /**
+      * APP / ELEMENTS
+      */
+     var container = document.getElementById( 'app' );
+     var video = document.getElementById( 'video' );
+     var canvas = document.getElementById( 'canvas' );
 
-	ARController.getUserMediaThreeScene({maxARVideoSize: 320, cameraParam: 'camera_para-iPhone 5 rear 640x480 1.0m.dat',
-	onSuccess: function(arScene, arController, arCamera) {
-
-		document.body.className = arController.orientation;
-
-		var renderer = new THREE.WebGLRenderer({antialias: true, precision: 'mediump'});
-		renderer.gammaOutput = true;
-		renderer.gammaFactor = 2.2;
-		if (arController.orientation === 'portrait') {
-			var w = (window.innerWidth / arController.videoHeight) * arController.videoWidth;
-			var h = window.innerWidth;
-			renderer.setSize(w, h);
-			renderer.domElement.style.paddingBottom = (w-h) + 'px';
-		} else {
-			if (/Android|mobile|iPad|iPhone/i.test(navigator.userAgent)) {
-				renderer.setSize(window.innerWidth, (window.innerWidth / arController.videoWidth) * arController.videoHeight);
-			} else {
-				renderer.setSize(arController.videoWidth, arController.videoHeight);
-				document.body.className += ' desktop';
-			}
-		}
-
-		document.body.insertBefore(renderer.domElement, document.body.firstChild);
-
-		var rotationV = 0;
-		var rotationTarget = 0;
-
-		renderer.domElement.addEventListener('click', function(ev) {
-			ev.preventDefault();
-			rotationTarget += 1;
-		}, false);
-
-
-		arController.loadNFTMarker('pinball', function(markerId) {
-			var markerRoot = arController.createThreeNFTMarker(markerId);
-			//markerRoot.add(sphere);
-      var loader = new THREE.GLTFLoader();
-  						loader.load( 'Duck.glb', function ( gltf ) {
-                gltf.scene.rotation.x = 0.5*Math.PI;
-									gltf.scene.position.z = 40;
-									gltf.scene.position.x = 80;
-									gltf.scene.position.y = 80;
-								gltf.scene.scale.set(80,80,80);
-
-  							markerRoot.add( gltf.scene );
-  						} , undefined, function ( error ) {
-  	             console.error( error );
-               });
-			arScene.scene.add(markerRoot);
-		});
-
-		
-
-		
-
-	}});
-
-	delete window.ARThreeOnLoad;
-
-};
-
-if (window.ARController && ARController.getUserMediaThreeScene) {
-	ARThreeOnLoad();
-}
+     nftLoader(container, video, 1024, 540, canvas, "pinball", true);
     </script>
 </body>
 
