@@ -10,14 +10,13 @@
 <body>
 
      
-
-    <script src="stats.min.js"></script>
-    <script src="three.min.js"></script>
-		<script src="arNFT.min.js"></script>
-		<script src='../GLTFLoader.js'></script>
+<script src="artoolkit.min.js"></script>
+<script src="three.js"></script>
+<script src="GLTFLoader.js"></script>
+<script src="artoolkit.three.js"></script>
 
     <script>
-window.ARThreeOnLoad = function() {
+	window.ARThreeOnLoad = function() {
 
 	ARController.getUserMediaThreeScene({maxARVideoSize: 320, cameraParam: 'camera_para-iPhone 5 rear 640x480 1.0m.dat',
 	onSuccess: function(arScene, arController, arCamera) {
