@@ -21,18 +21,35 @@
 			var nft = new ARnft(640, 480, 'config.json');
 
 			nft.init("pinball", true);
-			 var threeGLTFLoader = new THREE.GLTFLoader();
+			
+			var threeGLTFLoader = new THREE.GLTFLoader();
+			var model;
+			var sphere = new THREE.Mesh(
+				new THREE.SphereGeometry(0.5, 8, 8),
+				new THREE.MeshNormalMaterial()
+			);	
+			var markerRoot = arController.createThreeNFTMarker(markerId);
+			
+			
+			threeGLTFLoader.load("Cube.glb", function (gltf) {
+            model = gltf.scene.children[0];
+            model.name = 'Model';
+			model.scale.set(100, 100, 300);
+            model.position.z = 0;
+            model.position.x = 0;
+            model.position.y = 0;
+            var animation = gltf.animations[0];
+            var mixer = new THREE.AnimationMixer(model);
+            mixers.push(mixer);
+            var action = mixer.clipAction(animation);
+            action.play();
 
-			threeGLTFLoader.load("Duck.glb", function (gltf) {
-            model = gltf.scene;
-            model.name = "Duck";
-            model.scale.set(100, 100, 100);
-            model.rotation.x = Math.PI/2;
+            markerRoot.matrixAutoUpdate = false;
+            markerRoot.add(Model);
+			markerRoot.add(sphere);
+			arScene.scene.add(markerRoot);
 
-            root.matrixAutoUpdate = false;
-            root.add(model);
-        }
-		);
+			});
     </script>
 </body>
 
