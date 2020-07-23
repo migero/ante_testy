@@ -76,7 +76,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
             model.position.x = 80;
             model.position.y = 100;
             model.rotateX(Math.PI*.5);
-            model.scale.set(100,100,100);
+            model.scale.set(10,10,10);
 			model.traverse( function ( child ) {
 			if ( child.isMesh ) { 
 			child.material.alphaTest = 0.5;
