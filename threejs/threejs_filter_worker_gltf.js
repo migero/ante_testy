@@ -69,7 +69,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
     /* Load Model */
     var threeGLTFLoader = new THREE.GLTFLoader();
 
-    threeGLTFLoader.load("Duck.glb", function (gltf) {
+    threeGLTFLoader.load("Cube.glb", function (gltf) {
             model = gltf.scene;
             model.position.z = 0;
             model.position.x = 80;
