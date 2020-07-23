@@ -36,7 +36,6 @@ function nftLoader(container, video, videoWidth, videoHeight, canvas, marker, st
       video.srcObject = stream;
       video.addEventListener("loadedmetadata", function() {
         video.play();
-
         start(
           container,
           markers[marker],
@@ -58,6 +57,5 @@ function nftLoader(container, video, videoWidth, videoHeight, canvas, marker, st
       });
     });
   }
-
 
 }
