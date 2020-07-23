@@ -43,11 +43,10 @@ function start( container, marker, video, input_width, input_height, canvas_draw
     var renderer = new THREE.WebGLRenderer({
         canvas: canvas_draw,
         alpha: false,
-		premultipliedAlpha: false;
+		premultipliedAlpha: false,
         antialias: false,
-		stencil: false;
-		depth: false;
-		
+		stencil: false,
+		depth: false,
         precision: 'lowp',
     });
     renderer.setPixelRatio(window.devicePixelRatio);
