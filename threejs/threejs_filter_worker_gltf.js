@@ -7,9 +7,9 @@ function isMobile() {
 }
 
 var markers = {
-    marker1: {
-        width: 1266,
-        height: 644,
+    pinball: {
+        width: 1637,
+        height: 2048,
         dpi: 215,
         url: "marker1",
     }
@@ -70,7 +70,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
     /* Load Model */
     var threeGLTFLoader = new THREE.GLTFLoader();
 
-    threeGLTFLoader.load("calosc.glb", function (gltf) {
+    threeGLTFLoader.load("Cube.glb", function (gltf) {
             model = gltf.scene;
             model.position.z = 0;
             model.position.x = 80;
@@ -82,6 +82,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
 			child.material.alphaTest = 0.5;
 			child.material.depthWrite = true;
      }
+
 }  );
             root.matrixAutoUpdate = false;
             root.add(model);
