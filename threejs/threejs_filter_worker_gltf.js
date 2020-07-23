@@ -7,11 +7,11 @@ function isMobile() {
 }
 
 var markers = {
-    pinball: {
+    marker1: {
         width: 1266,
         height: 644,
         dpi: 215,
-        url: "ice_screenshot_20200721-160046",
+        url: "marker1",
     }
 };
 
