@@ -76,6 +76,9 @@ function start( container, marker, video, input_width, input_height, canvas_draw
             model.position.y = 100;
             model.rotateX(Math.PI*.5);
             model.scale.set(100,100,100);
+			model.traverse((object) => {
+				if (object.isMesh) object.material.transparent = false;
+			});
 
             root.matrixAutoUpdate = false;
             root.add(model);
