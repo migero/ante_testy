@@ -10,7 +10,7 @@ var markers = {
     pinball: {
         width: 1266,
         height: 644,
-        dpi: 215,
+        dpi: 75,
         url: "marker1",
     }
 };
@@ -52,7 +52,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
 	renderer.gammaOutput = true;
     var scene = new THREE.Scene();
 
-    var camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 0.11);
+    var camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 1000);
     camera.matrixAutoUpdate = false;
 
     scene.add(camera);
