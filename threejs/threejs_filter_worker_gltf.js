@@ -76,8 +76,8 @@ function start( container, marker, video, input_width, input_height, canvas_draw
     threeGLTFLoader.load("calosc.glb", function (gltf) {
             model = gltf.scene;
             model.position.z = 0;
-            model.position.x = -30;
-            model.position.y = 5;
+            model.position.x = 50;
+            model.position.y = 50;
             model.rotateX(Math.PI*.5);
             model.scale.set(6.5,6.5,6.5);
 			model.traverse( function ( child ) {
