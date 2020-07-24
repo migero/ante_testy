@@ -8,8 +8,8 @@ function isMobile() {
 
 var markers = {
     pinball: {
-        width: 1637,
-        height: 2048,
+        width: 1266,
+        height: 644,
         dpi: 215,
         url: "marker1",
     }
@@ -44,14 +44,15 @@ function start( container, marker, video, input_width, input_height, canvas_draw
         canvas: canvas_draw,
         alpha: true,
 		premultipliedAlpha: false,
-        antialias: false,
+        antialias: true,
+		logarithmicDepthBuffer: true,
         precision: 'highp',
     });
     renderer.setPixelRatio(window.devicePixelRatio);
 
     var scene = new THREE.Scene();
 
-    var camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 25, 30);
+    var camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 1, 2);
     camera.matrixAutoUpdate = false;
 
     scene.add(camera);
