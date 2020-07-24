@@ -54,7 +54,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
 	
     var scene = new THREE.Scene();
 
-    var camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 5, 50);
+    var camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 2, 70);
     camera.matrixAutoUpdate = false;
 
     scene.add(camera);
@@ -76,8 +76,8 @@ function start( container, marker, video, input_width, input_height, canvas_draw
     threeGLTFLoader.load("calosc.glb", function (gltf) {
             model = gltf.scene;
             model.position.z = 0;
-            model.position.x = 80;
-            model.position.y = 100;
+            model.position.x = 200;
+            model.position.y = 150;
             model.rotateX(Math.PI*.5);
             model.scale.set(5,5,5);
 			model.traverse( function ( child ) {
