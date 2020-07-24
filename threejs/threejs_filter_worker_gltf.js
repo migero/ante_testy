@@ -222,7 +222,11 @@ function start( container, marker, video, input_width, input_height, canvas_draw
             // set matrix of 'root' by detected 'world' matrix
             setMatrix(root.matrix, world);
         }
-		renderer.setSize( 1920, 1080 );
+		
+		camera.aspect = window.innerWidth / window.innerHeight;
+		camera.updateProjectionMatrix();
+
+		renderer.setSize( window.innerWidth, window.innerHeight );
         renderer.render(scene, camera);
     };
 
