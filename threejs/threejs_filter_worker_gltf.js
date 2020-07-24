@@ -50,6 +50,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
     renderer.setPixelRatio(window.devicePixelRatio);
 	renderer.gammaFactor = 2.2;
 	renderer.gammaOutput = true;
+	renderer.sortObjects = false;
 	
     var scene = new THREE.Scene();
 
