@@ -50,6 +50,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
     renderer.setPixelRatio(window.devicePixelRatio);
 	renderer.gammaFactor = 2.2;
 	renderer.gammaOutput = true;
+	renderer.setSize( 1920, 1080 );
     var scene = new THREE.Scene();
 
     var camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 1000);
