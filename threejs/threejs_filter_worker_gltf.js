@@ -48,7 +48,8 @@ function start( container, marker, video, input_width, input_height, canvas_draw
         precision: 'highp',
     });
     renderer.setPixelRatio(window.devicePixelRatio);
-
+	renderer.gammaFactor = 2.2;
+	renderer.gammaOutput = true;
     var scene = new THREE.Scene();
 
     var camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 0.11);
