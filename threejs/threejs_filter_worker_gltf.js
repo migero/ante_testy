@@ -54,7 +54,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
 	
     var scene = new THREE.Scene();
 
-    var camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 2, 70);
+    var camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 1000);
     camera.matrixAutoUpdate = false;
 
     scene.add(camera);
