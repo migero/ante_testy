@@ -12,6 +12,10 @@ var markers = {
         height: 644,
         dpi: 75,
         url: "marker1",
+		smooth: true,
+        smoothCount: 10,
+        smoothTolerance: .01,
+        smoothThreshold: 5,
     }
 };
 
