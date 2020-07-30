@@ -48,7 +48,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
         canvas: canvas_draw,
         alpha: true,
 		premultipliedAlpha: false,
-        antialias: true,
+
         precision: 'highp',
     });
     renderer.setPixelRatio(window.devicePixelRatio);
@@ -58,18 +58,13 @@ function start( container, marker, video, input_width, input_height, canvas_draw
 	
     var scene = new THREE.Scene();
 
-    var camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 100);
+    var camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 1, 1000);
     camera.matrixAutoUpdate = false;
 
     scene.add(camera);
 
     var light = new THREE.AmbientLight(0xffffff);
     scene.add(light);
-
-    var sphere = new THREE.Mesh(
-        new THREE.SphereGeometry(0.5, 8, 8),
-        new THREE.MeshNormalMaterial()
-    );
 
     var root = new THREE.Object3D();
     scene.add(root);

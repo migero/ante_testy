@@ -48,7 +48,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
         canvas: canvas_draw,
         alpha: true,
 		premultipliedAlpha: false,
-        antialias: true,
+        antialias: false,
         precision: 'highp',
     });
     renderer.setPixelRatio(window.devicePixelRatio);
