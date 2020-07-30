@@ -79,11 +79,11 @@ function start( container, marker, video, input_width, input_height, canvas_draw
 
     threeGLTFLoader.load("box.glb", function (gltf) {
             model = gltf.scene;
-            model.position.z = 0;
-            model.position.x = 50;
-            model.position.y = 50;
+            model.position.z = 75;
+            model.position.x = 200;
+            model.position.y = 100;
             model.rotateX(Math.PI*.5);
-            model.scale.set(6.5,6.5,6.5);
+            model.scale.set(3,3,3);
 			model.traverse( function ( child ) {
 			if ( child.isMesh ) { 
 			child.material.alphaTest = 0.5;
