@@ -63,8 +63,6 @@ function start( container, marker, video, input_width, input_height, canvas_draw
 
     scene.add(camera);
 
-    );
-
     var root = new THREE.Object3D();
     scene.add(root);
 
