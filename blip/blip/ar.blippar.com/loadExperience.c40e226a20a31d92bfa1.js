@@ -312,7 +312,7 @@
                 );
         var F = "";
         l > 0
-            ? $.getJSON("/main.json"))
+            ? $.getJSON("/main.json")
                   .success(function (e) {
                       (actual_JSON = e), (assetPath = "".concat(F + c, "/").concat(l, "/asset/")), j(), L(), V(), H();
                   })
