@@ -25,6 +25,7 @@ html,body {
       var artoolkit_wasm_url = '../build/artoolkit_wasm.wasm';
 </script>
 <script src="../build/artoolkit_wasm.js"></script>
+<script src="GLTFLoader.js"></script>
 <script async src="js/third_party/three.js/three.min.js"></script>
 <script async src="../js/artoolkit.three.js"></script>
 
@@ -32,7 +33,7 @@ html,body {
     window.addEventListener('artoolkit-loaded', () => {
       window.ARThreeOnLoad = function() {
 
-      	ARController.getUserMediaThreeScene({maxARVideoSize: 320, cameraParam: 'Data/camera_para-iPhone 5 rear 640x480 1.0m.dat',
+      	ARController.getUserMediaThreeScene({maxARVideoSize: 320, cameraParam: 'Data/camera.dat',
       	onSuccess: function(arScene, arController, arCamera) {
 
       		document.body.className = arController.orientation;
