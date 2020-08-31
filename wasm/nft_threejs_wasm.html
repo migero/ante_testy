@@ -86,12 +86,6 @@ html,body {
       			arScene.scene.add(markerRoot);
       		});
 
-      		arController.loadMarker('Data/patt.kanji', function(markerId) {
-      			var markerRoot = arController.createThreeMarker(markerId);
-      			markerRoot.add(torus);
-      			arScene.scene.add(markerRoot);
-      		});
-
       		var tick = function() {
       			arScene.process();
 
