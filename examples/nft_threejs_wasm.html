@@ -64,27 +64,29 @@ html,body {
 
       		document.body.insertBefore(renderer.domElement, document.body.firstChild);
 
-      		var rotationV = 0;
-      		var rotationTarget = 0;
-
       		renderer.domElement.addEventListener('click', function(ev) {
       			ev.preventDefault();
       			rotationTarget += 1;
       		}, false);
 
 			var scene = new THREE.Scene();
+			var camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 100);
+			camera.matrixAutoUpdate = false;
+			scene.add(camera);
+			import * as THREE from 'three';
+			import GLTFLoader from 'three-gltf-loader';
 
-    var camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 100);
-    camera.matrixAutoUpdate = false;
-
-    scene.add(camera);
-	
-var obj;
-        var loader = new THREE.GLTFLoader();
-        loader.load('tylko_A.glb', function (geometry, materials) {
-            obj = new THREE.Mesh(geometry, materials);
-            scene.add(obj);
-        });
+			const loader = new GLTFLoader();
+				if( this.state.current.Race === null ) {
+					loader.load(
+						'tylko_A.glb',
+						( gltf ) => {
+						yourScene.add( gltf.scene );
+							},
+						)
+						} else {
+							console.log( 'Not loaded' );
+					}
 	
       		var sphere = new THREE.Mesh(
       			new THREE.SphereGeometry(0.5, 8, 8),
