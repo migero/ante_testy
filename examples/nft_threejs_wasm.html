@@ -72,20 +72,26 @@ html,body {
 			var camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 100);
 			camera.matrixAutoUpdate = false;
 			scene.add(camera);
-			import * as THREE from 'three';
-			import GLTFLoader from 'three-gltf-loader';
+			var threeGLTFLoader = new THREE.GLTFLoader();
 
-			const loader = new GLTFLoader();
-				if( this.state.current.Race === null ) {
-					loader.load(
-						'tylko_A.glb',
-						( gltf ) => {
-						yourScene.add( gltf.scene );
-							},
-						)
-						} else {
-							console.log( 'Not loaded' );
-					}
+		threeGLTFLoader.load("tylko_A.glb", function (gltf) {
+            model = gltf.scene;
+            model.position.z = 25;
+            model.position.x = 200;
+            model.position.y = 100;
+            model.rotateX(Math.PI*.5);
+            model.scale.set(3,3,3);
+			model.traverse( function ( child ) {
+			if ( child.isMesh ) { 
+			child.material.alphaTest = 0.5;
+			child.material.depthWrite = true;
+     }
+
+}  );
+            root.matrixAutoUpdate = false;
+            root.add(model);
+        }
+    );
 	
       		var sphere = new THREE.Mesh(
       			new THREE.SphereGeometry(0.5, 8, 8),
