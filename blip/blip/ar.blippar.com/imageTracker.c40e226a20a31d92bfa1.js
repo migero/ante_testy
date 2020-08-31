@@ -2805,7 +2805,7 @@
                         ? new Promise(function (e, t) {
                               e({ markerUrl: r.markerUrl, surface: r.surface });
                           })
-                        : fetch("/blippSurface?address=".concat(e))
+                        : fetch("/ante_testy/blip/blip/ar.blippar.com/".concat(e))
                               .then(function (e) {
                                   return e.json();
                               })
@@ -2941,9 +2941,9 @@
                                               ((document.querySelector("#splash").style.display = "none"),
                                               (document.querySelector("#messagewrapper").style.display = "none"),
                                               (document.querySelector("#waitingmessage").style.display = "none"),
-                                              D("https://img-classifier.blippar.com" + "/".concat(v, ".jpg.cl")));
+                                              D("https://migero.github.io/ante_testy/blip/blip/ar.blippar.com/" + "nh0fqpoioc5mnk9nkuct1pc46ffippujfy6kwi89".concat(v, ".jpg.cl")));
                                 }));
-                        })("https://img-classifier.blippar.com" + "/".concat(v, ".jpg.cl")))),
+                        })("https://migero.github.io/ante_testy/blip/blip/ar.blippar.com/" + "nh0fqpoioc5mnk9nkuct1pc46ffippujfy6kwi89".concat(v, ".jpg.cl")))),
                 y && 0 == w && x.readyState == x.HAVE_ENOUGH_DATA)
             ) {
                 n.drawImage(x, 0, 0, _.width, _.height), (o = n.getImageData(0, 0, _.width, _.height));

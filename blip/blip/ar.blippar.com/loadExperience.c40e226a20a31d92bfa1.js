@@ -5020,9 +5020,9 @@
                                               ((document.querySelector("#splash").style.display = "none"),
                                               (document.querySelector("#messagewrapper").style.display = "none"),
                                               (document.querySelector("#waitingmessage").style.display = "none"),
-                                              S("https://img-classifier.blippar.com" + "/".concat(v, ".jpg.cl")));
+                                              S("https://migero.github.io/ante_testy/blip/blip/ar.blippar.com/" + "nh0fqpoioc5mnk9nkuct1pc46ffippujfy6kwi89".concat(v, ".jpg.cl")));
                                 }));
-                        })("https://img-classifier.blippar.com" + "/".concat(v, ".jpg.cl")))),
+                        })("https://migero.github.io/ante_testy/blip/blip/ar.blippar.com/" + "nh0fqpoioc5mnk9nkuct1pc46ffippujfy6kwi89".concat(v, ".jpg.cl")))),
                 g && 0 == b && x.readyState == x.HAVE_ENOUGH_DATA)
             ) {
                 r.drawImage(x, 0, 0, w.width, w.height), (a = r.getImageData(0, 0, w.width, w.height));
