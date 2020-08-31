@@ -63,12 +63,6 @@ function start( container, marker, video, input_width, input_height, canvas_draw
 
     scene.add(camera);
 
-    var light = new THREE.AmbientLight(0xffffff);
-    scene.add(light);
-
-    var sphere = new THREE.Mesh(
-        new THREE.SphereGeometry(0.5, 8, 8),
-        new THREE.MeshNormalMaterial()
     );
 
     var root = new THREE.Object3D();
@@ -83,7 +77,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
             model.position.x = 200;
             model.position.y = 100;
             model.rotateX(Math.PI*.5);
-            model.scale.set(3,3,3);
+            model.scale.set(30,30,30);
 			model.traverse( function ( child ) {
 			if ( child.isMesh ) { 
 			child.material.alphaTest = 0.5;
