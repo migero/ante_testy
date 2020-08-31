@@ -38,11 +38,19 @@ html,body {
 
       		document.body.className = arController.orientation;
 
-      		var renderer = new THREE.WebGLRenderer({antialias: true});
+      		var renderer = new THREE.WebGLRenderer({
+			alpha: true,
+			premultipliedAlpha: false,
+			antialias: false,
+			precision: 'highp'
+			});
       		if (arController.orientation === 'portrait') {
       			var w = (window.innerWidth / arController.videoHeight) * arController.videoWidth;
       			var h = window.innerWidth;
       			renderer.setSize(w, h);
+				renderer.gammaFactor = 2.2;
+				renderer.gammaOutput = true;
+				renderer.sortObjects = false;
       			renderer.domElement.style.paddingBottom = (w-h) + 'px';
       		} else {
       			if (/Android|mobile|iPad|iPhone/i.test(navigator.userAgent)) {
@@ -63,6 +71,34 @@ html,body {
       			rotationTarget += 1;
       		}, false);
 
+			var scene = new THREE.Scene();
+
+    var camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 100);
+    camera.matrixAutoUpdate = false;
+
+    scene.add(camera);
+	
+var threeGLTFLoader = new THREE.GLTFLoader();
+
+		threeGLTFLoader.load("tylko_A.glb", function (gltf) {
+            model = gltf.scene;
+            model.position.z = 25;
+            model.position.x = 200;
+            model.position.y = 100;
+            model.rotateX(Math.PI*.5);
+            model.scale.set(3,3,3);
+			model.traverse( function ( child ) {
+			if ( child.isMesh ) { 
+			child.material.alphaTest = 0.5;
+			child.material.depthWrite = true;
+     }
+
+}  );
+            root.matrixAutoUpdate = false;
+            root.add(model);
+        }
+    );
+	
       		var sphere = new THREE.Mesh(
       			new THREE.SphereGeometry(0.5, 8, 8),
       			new THREE.MeshNormalMaterial()
@@ -73,13 +109,6 @@ html,body {
       		sphere.position.y = 80;
       		sphere.scale.set(80,80,80);
 
-      		var torus = new THREE.Mesh(
-      			new THREE.TorusGeometry(0.3, 0.2, 8, 8),
-      			new THREE.MeshNormalMaterial()
-      		);
-      		torus.material.shading = THREE.FlatShading;
-      		torus.position.z = 0.5;
-      		torus.rotation.x = Math.PI/2;
 
       		arController.loadNFTMarker('DataNFT/marker1', function(markerId) {
       			var markerRoot = arController.createThreeNFTMarker(markerId);
@@ -87,20 +116,9 @@ html,body {
       			arScene.scene.add(markerRoot);
       		});
 
-      		arController.loadMarker('Data/patt.kanji', function(markerId) {
-      			var markerRoot = arController.createThreeMarker(markerId);
-      			markerRoot.add(torus);
-      			arScene.scene.add(markerRoot);
-      		});
 
       		var tick = function() {
       			arScene.process();
-
-      			rotationV += (rotationTarget - sphere.rotation.z) * 0.05;
-      			sphere.rotation.z += rotationV;
-      			torus.rotation.y += rotationV;
-      			rotationV *= 0.8;
-
       			arScene.renderOn(renderer);
       			requestAnimationFrame(tick);
       		};
