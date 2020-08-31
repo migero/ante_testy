@@ -33,7 +33,7 @@ html,body {
     window.addEventListener('artoolkit-loaded', () => {
       window.ARThreeOnLoad = function() {
 
-      	ARController.getUserMediaThreeScene({maxARVideoSize: 320, cameraParam: 'Data/camera.dat',
+      	ARController.getUserMediaThreeScene({maxARVideoSize: 320, cameraParam: 'Data/camera_para-iPad.dat',
       	onSuccess: function(arScene, arController, arCamera) {
 
       		document.body.className = arController.orientation;
