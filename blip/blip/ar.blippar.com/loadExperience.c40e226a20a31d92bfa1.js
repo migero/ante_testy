@@ -4884,7 +4884,7 @@
                         ? new Promise(function (e, t) {
                               e({ markerUrl: n.markerUrl, surface: n.surface });
                           })
-                        : fetch("/blippSurface?address=".concat(e))
+                        : fetch("/ante_testy/blip/blip/ar.blippar.com/".concat(e))
                               .then(function (e) {
                                   return e.json();
                               })
