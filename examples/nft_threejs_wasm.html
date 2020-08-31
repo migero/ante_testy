@@ -74,7 +74,7 @@ html,body {
 			scene.add(camera);
 			var threeGLTFLoader = new THREE.GLTFLoader();
 
-		threeGLTFLoader.load("tylko_A.glb", function (gltf) {
+		threeGLTFLoader.load("cube.glb", function (gltf) {
             model = gltf.scene;
             model.position.z = 25;
             model.position.x = 200;
@@ -88,8 +88,6 @@ html,body {
      }
 
 }  );
-            root.matrixAutoUpdate = false;
-            root.add(model);
         }
     );
 	
@@ -107,6 +105,7 @@ html,body {
       		arController.loadNFTMarker('DataNFT/marker1', function(markerId) {
       			var markerRoot = arController.createThreeNFTMarker(markerId);
       			markerRoot.add(sphere);
+				markerRoot.add(model);
       			arScene.scene.add(markerRoot);
       		});
 
