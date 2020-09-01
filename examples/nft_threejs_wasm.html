@@ -74,7 +74,8 @@ html,body {
       		}, false);
 
 			var scene = new THREE.Scene();
-			var camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 100);
+			var camera = new THREE.Camera();
+			
 			camera.matrixAutoUpdate = false;
 			scene.add(camera);
 			var threeGLTFLoader = new THREE.GLTFLoader();
