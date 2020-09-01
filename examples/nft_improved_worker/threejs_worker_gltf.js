@@ -11,16 +11,12 @@ var interpolationFactor = 1;
 var trackedMatrix = {
     // for interpolation
     delta: [
-        0, 0, 0, 0,
-        0, 0, 0, 0,
-        0, 0, 0, 0,
-        0, 0, 0, 0
+        0, 0,
+        0, 0,
     ],
     interpolated: [
-        0, 0, 0, 0,
-        0, 0, 0, 0,
-        0, 0, 0, 0,
-        0, 0, 0, 0
+        0, 0,
+        0, 0
     ]
 }
 
@@ -69,7 +65,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
 
     var scene = new THREE.Scene();
 
-    var camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 100);
+    var camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.5, 100);
     camera.matrixAutoUpdate = false;
 
     scene.add(camera);
@@ -231,7 +227,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
             root.visible = true;
 
             // interpolate matrix
-            for (var i = 0; i < 16; i++) {
+            for (var i = 0; i < 4; i++) {
                 trackedMatrix.delta[i] = world[i] - trackedMatrix.interpolated[i];
                 trackedMatrix.interpolated[i] =
                     trackedMatrix.interpolated[i] +
