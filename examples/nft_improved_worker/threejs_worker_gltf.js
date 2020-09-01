@@ -83,8 +83,8 @@ function start( container, marker, video, input_width, input_height, canvas_draw
     var threeGLTFLoader = new THREE.GLTFLoader();
 
     threeGLTFLoader.load("../tylko_A.gltf", function (gltf) {
-            model = gltf.scene.children[0];
-			model.position.z = 75;
+            model = gltf.scene;
+            model.position.z = 75;
             model.position.x = 200;
             model.position.y = 100;
             model.rotateX(Math.PI*.5);
@@ -94,18 +94,12 @@ function start( container, marker, video, input_width, input_height, canvas_draw
 			child.material.alphaTest = 0.5;
 			child.material.depthWrite = true;
      }
-			});
-            var animation = gltf.animations[0];
-            var mixer = new THREE.AnimationMixer(model);
-            mixers.push(mixer);
-            var action = mixer.clipAction(animation);
-            action.play();
 
+}  );
             root.matrixAutoUpdate = false;
             root.add(model);
         }
     );
-
     var load = function() {
         vw = input_width;
         vh = input_height;
@@ -215,7 +209,6 @@ function start( container, marker, video, input_width, input_height, canvas_draw
 
     var tick = function() {
         draw();
-        requestAnimationFrame(tick);
 
         if (mixers.length > 0) {
             for (var i = 0; i < mixers.length; i++) {
