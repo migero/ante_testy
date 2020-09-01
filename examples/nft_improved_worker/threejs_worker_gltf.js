@@ -60,9 +60,10 @@ function start( container, marker, video, input_width, input_height, canvas_draw
 
     // var context_draw = canvas_draw.getContext('2d');
     var renderer = new THREE.WebGLRenderer({
-        canvas: canvas_draw,
         alpha: true,
-        antialias: true
+			premultipliedAlpha: false,
+			antialias: false,
+			precision: 'highp'
     });
     renderer.setPixelRatio(window.devicePixelRatio);
 
@@ -211,6 +212,11 @@ function start( container, marker, video, input_width, input_height, canvas_draw
         ]);
     }
 
+    var tick = function() {
+        draw();
+      	requestAnimationFrame(tick);
+      	
+    };
 
     var draw = function() {
         render_update();
@@ -240,6 +246,6 @@ function start( container, marker, video, input_width, input_height, canvas_draw
     };
 
     load();
-    draw()
+    tick();
     process();
 }
