@@ -121,7 +121,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
 
         renderer.setSize(sw, sh);
 
-        worker = new Worker("artoolkit_filter.worker.js");
+        worker = new Worker("js/artoolkit_filter.worker.js");
 
         worker.postMessage({
             type: "load",
