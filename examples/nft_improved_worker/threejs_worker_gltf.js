@@ -6,7 +6,7 @@ function isMobile() {
     return /Android|mobile|iPad|iPhone/i.test(navigator.userAgent);
 }
 
-var interpolationFactor = 0;
+var interpolationFactor = 2;
 
 var trackedMatrix = {
     // for interpolation
@@ -89,7 +89,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
             model.position.z = 0;
             model.position.x = 100;
             model.position.y = 100;
-			model.scale.set(2,2,2);
+			
 			model.traverse( function ( child ) {
 					if ( child.isMesh ) { 
 										child.material.alphaTest = 0.5;
