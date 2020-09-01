@@ -211,8 +211,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
         ]);
     }
 
-<<<<<<< HEAD
-=======
+
     var tick = function() {
         draw();
 		requestAnimationFrame(tick);
@@ -222,7 +221,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
             }
         }
     };
->>>>>>> parent of 6466cdc... Update threejs_worker_gltf.js
+
 
     var draw = function() {
         render_update();
