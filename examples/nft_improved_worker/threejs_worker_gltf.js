@@ -210,6 +210,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
 
     var tick = function() {
         draw();
+		requestAnimationFrame(tick);
         if (mixers.length > 0) {
             for (var i = 0; i < mixers.length; i++) {
                 mixers[i].update(clock.getDelta());
