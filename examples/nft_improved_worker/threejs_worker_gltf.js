@@ -94,6 +94,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
 			child.material.alphaTest = 0.5;
 			child.material.depthWrite = true;
      }
+			});
             var animation = gltf.animations[0];
             var mixer = new THREE.AnimationMixer(model);
             mixers.push(mixer);
