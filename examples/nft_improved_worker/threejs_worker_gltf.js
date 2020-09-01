@@ -211,9 +211,6 @@ function start( container, marker, video, input_width, input_height, canvas_draw
         ]);
     }
 
-    var tick = function() {
-        draw();
-    };
 
     var draw = function() {
         render_update();
@@ -243,6 +240,6 @@ function start( container, marker, video, input_width, input_height, canvas_draw
     };
 
     load();
-    tick();
+    draw()
     process();
 }
