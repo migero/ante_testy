@@ -11,7 +11,7 @@ var markers = {
         width: 1266,
         height: 644,
         dpi: 75,
-        url: "marker1",
+        url: "../DataNFT/marker1",
 		smooth: true,
         smoothCount: 10,
         smoothTolerance: .01,
