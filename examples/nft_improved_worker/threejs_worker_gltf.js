@@ -6,7 +6,7 @@ function isMobile() {
     return /Android|mobile|iPad|iPhone/i.test(navigator.userAgent);
 }
 
-var interpolationFactor = 2;
+var interpolationFactor = 0;
 
 var trackedMatrix = {
     // for interpolation
@@ -68,7 +68,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
 
     var scene = new THREE.Scene();
 
-    var camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 100);
+    var camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.5, 100);
     camera.matrixAutoUpdate = false;
 
     scene.add(camera);
