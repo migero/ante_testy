@@ -78,17 +78,8 @@ function start( container, marker, video, input_width, input_height, canvas_draw
 
     var root = new THREE.Object3D();
     scene.add(root);
-	scene.add(sphere);
 	
-	var sphere = new THREE.Mesh(
-      			new THREE.SphereGeometry(0.5, 8, 8),
-      			new THREE.MeshNormalMaterial()
-      		);
-      		sphere.material.flatShading;
-      		sphere.position.z = 40;
-      		sphere.position.x = 80;
-      		sphere.position.y = 80;
-      		sphere.scale.set(80,80,80);
+	
     /* Load Model */
     var threeGLTFLoader = new THREE.GLTFLoader();
 
@@ -105,6 +96,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
 										child.material.alphaTest = 0.5;
 										child.material.depthWrite = true;
 										}
+
 			}  );
             var animation = gltf.animations[0];
             var mixer = new THREE.AnimationMixer(model);
