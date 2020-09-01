@@ -39,7 +39,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
     var pw, ph;
     var ox, oy;
     var worker;
-    var camera_para = 'camera_para.dat'
+    var camera_para = 'Data/camera_para-iPad.dat'
 
     var canvas_process = document.createElement("canvas");
     var context_process = canvas_process.getContext("2d");
