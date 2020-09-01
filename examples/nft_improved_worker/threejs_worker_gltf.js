@@ -82,12 +82,18 @@ function start( container, marker, video, input_width, input_height, canvas_draw
     /* Load Model */
     var threeGLTFLoader = new THREE.GLTFLoader();
 
-    threeGLTFLoader.load("../Data/models/Flamingo.glb", function (gltf) {
+    threeGLTFLoader.load("tylko_A.glb", function (gltf) {
             model = gltf.scene.children[0];
-            model.position.z = 0;
-            model.position.x = 100;
+			model.position.z = 75;
+            model.position.x = 200;
             model.position.y = 100;
-
+            model.rotateX(Math.PI*.5);
+            model.scale.set(3,3,3);
+			model.traverse( function ( child ) {
+			if ( child.isMesh ) { 
+			child.material.alphaTest = 0.5;
+			child.material.depthWrite = true;
+     }
             var animation = gltf.animations[0];
             var mixer = new THREE.AnimationMixer(model);
             mixers.push(mixer);
@@ -121,7 +127,10 @@ function start( container, marker, video, input_width, input_height, canvas_draw
         canvas_process.height = ph;
 
         renderer.setSize(sw, sh);
-
+		renderer.gammaFactor = 2.2;
+		renderer.gammaOutput = true;
+		renderer.sortObjects = false;
+	
         worker = new Worker("../../js/artoolkit.worker.js");
 
         worker.postMessage({
