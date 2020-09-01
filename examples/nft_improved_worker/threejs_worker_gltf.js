@@ -6,7 +6,6 @@ function isMobile() {
     return /Android|mobile|iPad|iPhone/i.test(navigator.userAgent);
 }
 
-var interpolationFactor = 0;
 
 var trackedMatrix = {
     // for interpolation
@@ -237,16 +236,6 @@ function start( container, marker, video, input_width, input_height, canvas_draw
         } else {
             root.visible = true;
 
-            // interpolate matrix
-            for (var i = 0; i < 16; i++) {
-                trackedMatrix.delta[i] = world[i] - trackedMatrix.interpolated[i];
-                trackedMatrix.interpolated[i] =
-                    trackedMatrix.interpolated[i] +
-                    trackedMatrix.delta[i] / interpolationFactor;
-            }
-
-            // set matrix of 'root' by detected 'world' matrix
-            setMatrix(root.matrix, trackedMatrix.interpolated);
         }
 
         renderer.render(scene, camera);
