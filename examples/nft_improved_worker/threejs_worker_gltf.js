@@ -85,20 +85,16 @@ function start( container, marker, video, input_width, input_height, canvas_draw
 
 
  threeGLTFLoader.load("../Data/models/Flamingo.glb", function (gltf) {
-            model = gltf.scene.children[0];
-			model.position.z = 75;
-            model.position.x = 200;
+			model = gltf.scene.children[0];
+            model.position.z = 0;
+            model.position.x = 100;
             model.position.y = 100;
-			model.rotateX(Math.PI*.5);
-            model.scale.set(3,3,3);
-			model.traverse( function ( child ) {
-			if ( child.isMesh ) { 
-										child.material.alphaTest = 0.5;
-										child.material.depthWrite = true;
-										}
 
-			}  );
-            
+            var animation = gltf.animations[0];
+            var mixer = new THREE.AnimationMixer(model);
+            mixers.push(mixer);
+            var action = mixer.clipAction(animation);
+            action.play();
 
             root.matrixAutoUpdate = false;
             root.add(model);
