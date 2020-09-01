@@ -232,7 +232,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
             root.visible = true;
 
             // interpolate matrix
-            for (var i = 0; i < 16; i++) {
+            for (var i = 0; i < 1; i++) {
                 trackedMatrix.delta[i] = world[i] - trackedMatrix.interpolated[i];
                 trackedMatrix.interpolated[i] =
                     trackedMatrix.interpolated[i] +
