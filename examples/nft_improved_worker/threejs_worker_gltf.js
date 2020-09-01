@@ -81,7 +81,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
 
 
  threeGLTFLoader.load("../tylko_A.gltf", function (gltf) {
-			model = gltf.scene;
+			model = gltf.scene.children[0];
             model.position.z = 0;
             model.position.x = 100;
             model.position.y = 100;
@@ -93,7 +93,11 @@ function start( container, marker, video, input_width, input_height, canvas_draw
 										}
 					}  );
 
-            
+            var animation = gltf.animations[0];
+            var mixer = new THREE.AnimationMixer(model);
+            mixers.push(mixer);
+            var action = mixer.clipAction(animation);
+            action.play();
 
             root.matrixAutoUpdate = false;
             root.add(model);
@@ -207,6 +211,18 @@ function start( container, marker, video, input_width, input_height, canvas_draw
         ]);
     }
 
+<<<<<<< HEAD
+=======
+    var tick = function() {
+        draw();
+		requestAnimationFrame(tick);
+        if (mixers.length > 0) {
+            for (var i = 0; i < mixers.length; i++) {
+                mixers[i].update(clock.getDelta());
+            }
+        }
+    };
+>>>>>>> parent of 6466cdc... Update threejs_worker_gltf.js
 
     var draw = function() {
         render_update();
