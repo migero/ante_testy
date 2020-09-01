@@ -6,7 +6,7 @@ function isMobile() {
     return /Android|mobile|iPad|iPhone/i.test(navigator.userAgent);
 }
 
-var interpolationFactor = 24;
+var interpolationFactor = 2;
 
 var trackedMatrix = {
     // for interpolation
@@ -53,7 +53,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
     var pw, ph;
     var ox, oy;
     var worker;
-    var camera_para = "./../examples/Data/camera_para.dat";
+    var camera_para = "./../examples/Data/camera_para-iPad.dat";
 
     var canvas_process = document.createElement("canvas");
     var context_process = canvas_process.getContext("2d");
@@ -75,11 +75,6 @@ function start( container, marker, video, input_width, input_height, canvas_draw
 
     var light = new THREE.AmbientLight(0xffffff);
     scene.add(light);
-
-    var sphere = new THREE.Mesh(
-        new THREE.SphereGeometry(0.5, 8, 8),
-        new THREE.MeshNormalMaterial()
-    );
 
     var root = new THREE.Object3D();
     scene.add(root);
