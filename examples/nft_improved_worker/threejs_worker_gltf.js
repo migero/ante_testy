@@ -82,7 +82,7 @@ function start( container, marker, video, input_width, input_height, canvas_draw
     /* Load Model */
     var threeGLTFLoader = new THREE.GLTFLoader();
 
-    threeGLTFLoader.load("../tylko_A.glb", function (gltf) {
+    threeGLTFLoader.load("../tylko_A.gltf", function (gltf) {
             model = gltf.scene.children[0];
 			model.position.z = 75;
             model.position.x = 200;
