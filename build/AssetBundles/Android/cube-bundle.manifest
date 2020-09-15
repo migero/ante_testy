@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2191541530
+CRC: 2199858056
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 831b905bdebadac45c9ae0331101f469
+    Hash: 54d2a09f345413e81ebfe899bb305f7f
   TypeTreeHash:
     serializedVersion: 2
-    Hash: ea3f786f3814b1ad9ef2ef747825eec5
+    Hash: 43917c7e82ed3ae0a408b3ea37ec80f7
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -21,10 +21,9 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 43
   Script: {instanceID: 0}
-- Class: 48
-  Script: {instanceID: 0}
 - Class: 65
   Script: {instanceID: 0}
 Assets:
-- Assets/Cube.prefab
-Dependencies: []
+- Assets/AssetBundleSample/Assets/MyCube.prefab
+Dependencies:
+- C:/Users/pegaz/Documents/GitHub/unity-assetbundle-demo/demo/AssetBundles/Android/material-bundle

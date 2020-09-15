@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3109081206
+CRC: 2619042474
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 87b26cbc8c0a8d80445694db76c9caa7
+    Hash: ce7459f09a5e01fc9f305ea2476294b7
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 61eab76d03a5b9749b6033ba24619b3d
+    Hash: da209653fe157a80781853b2af4931d5
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -27,6 +27,15 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 65
   Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
 Assets:
-- Assets/AssetBundleSample/Assets/MyCube.prefab
-Dependencies: []
+- Assets/AssetBundleSample/Assets/Variants/VariantScene.unity
+Dependencies:
+- C:/Users/pegaz/Documents/GitHub/unity-assetbundle-demo/demo/AssetBundles/Android/variants/myassets.hd
