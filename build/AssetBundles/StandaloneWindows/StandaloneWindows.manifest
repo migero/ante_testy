@@ -1,10 +1,13 @@
 ManifestFileVersion: 0
-CRC: 4074452161
+CRC: 1852818531
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: marker_gold
+      Name: imagetarget_gold
       Dependencies: {}
     Info_1:
+      Name: imagetarget_tylko_a
+      Dependencies: {}
+    Info_2:
       Name: all_markers
       Dependencies: {}
