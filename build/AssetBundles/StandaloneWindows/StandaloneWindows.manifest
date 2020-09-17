@@ -1,10 +1,10 @@
 ManifestFileVersion: 0
-CRC: 2959925599
+CRC: 4074452161
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: cube
+      Name: marker_gold
       Dependencies: {}
     Info_1:
-      Name: tylko_a
+      Name: all_markers
       Dependencies: {}

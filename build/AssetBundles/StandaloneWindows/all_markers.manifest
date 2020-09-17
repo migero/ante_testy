@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 3226629002
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 875ca4998bd37582ca13fd3a20554f28
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4219ca1d54058c758d3a7166b7e384b4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+- Class: 114
+  Script: {fileID: -201013700, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+- Class: 114
+  Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+- Class: 114
+  Script: {fileID: -1770992566, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f0b3468764191604d815750816ce2b77, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d31f65d9f73a36f4d912952309be9f58, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b899a91cf153b4d49a674198f2bbe0cc, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/models/all_markers.prefab
+Dependencies: []
