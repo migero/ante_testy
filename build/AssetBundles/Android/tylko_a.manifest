@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 60322046
+CRC: 836541847
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 35b5e46a3f93d165238c1c58c294b124
+    Hash: df85ce070b1ecd6284f7df42a1c1d4d4
   TypeTreeHash:
     serializedVersion: 2
     Hash: cb5cff3a1350143ce413b676b0fb473f
@@ -26,5 +26,5 @@ ClassTypes:
 - Class: 48
   Script: {instanceID: 0}
 Assets:
-- Assets/models/tylko_a.prefab
+- Assets/models/ImageTarget_tylko_a.prefab
 Dependencies: []

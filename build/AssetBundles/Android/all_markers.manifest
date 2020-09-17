@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 2164972914
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a8ae0cc3e6c845941b3e959b6563ed2b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1d3ca49f5063ba89efc2011925c3e942
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f0b3468764191604d815750816ce2b77, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/models/all_markers.prefab
+Dependencies: []
