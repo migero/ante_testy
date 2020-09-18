@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2331743499
+CRC: 1639973212
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: dee67bf2e3c8ed67ddc3433418e56b07
+    Hash: 0ea638328ba15178aa4cd5ada543f856
   TypeTreeHash:
     serializedVersion: 2
-    Hash: f88837bc18a569f107f01e8f4e3c8dc9
+    Hash: cd448b86a3216d5b3c26dda2045d1bc4
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -26,6 +26,14 @@ ClassTypes:
 - Class: 48
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -113659843, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
   Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
 - Class: 114
   Script: {fileID: -201013700, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
@@ -38,6 +46,14 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: b899a91cf153b4d49a674198f2bbe0cc, type: 3}
 - Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
   Script: {instanceID: 0}
 Assets:
 - Assets/Vuforia/Materials/CloudRecoTarget.mat
