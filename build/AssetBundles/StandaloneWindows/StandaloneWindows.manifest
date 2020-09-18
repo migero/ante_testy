@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 1852818531
+CRC: 2367593732
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -9,5 +9,5 @@ AssetBundleManifest:
       Name: imagetarget_tylko_a
       Dependencies: {}
     Info_2:
-      Name: all_markers
+      Name: test
       Dependencies: {}
