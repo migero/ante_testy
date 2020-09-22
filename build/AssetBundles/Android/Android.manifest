@@ -1,13 +1,13 @@
 ManifestFileVersion: 0
-CRC: 928756453
+CRC: 2386277856
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: imagetarget_gold_2
+      Name: dmg_01
       Dependencies: {}
     Info_1:
-      Name: imagetarget_tylko_a_2
+      Name: mgb24
       Dependencies: {}
     Info_2:
-      Name: test_2
+      Name: main_asset
       Dependencies: {}
