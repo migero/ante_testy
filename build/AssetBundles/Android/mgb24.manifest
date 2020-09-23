@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1381886858
+CRC: 3254322172
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: bdcfcfd0871feb5b7f4447e93dd5377d
+    Hash: a044036ac96b0fa6032062d57e557efa
   TypeTreeHash:
     serializedVersion: 2
     Hash: a62415f0b9858a7c85f65f25b98ac571
@@ -46,5 +46,5 @@ ClassTypes:
 - Class: 215
   Script: {instanceID: 0}
 Assets:
-- Assets/models/mgb24_refab.prefab
+- Assets/models/mgb24_prefab.prefab
 Dependencies: []
