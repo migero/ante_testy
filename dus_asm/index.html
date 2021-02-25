@@ -106,7 +106,7 @@
     if (staryios) {
          var gameInstance = UnityLoader.instantiate("gameContainer", "Build/dus_asm.json", {onProgress: UnityProgress});
     }else{
-	alert("PC");
+	var gameInstance = UnityLoader.instantiate("gameContainer", "Build/dus_2k.json", {onProgress: UnityProgress});
 	}
   
   function UnityProgress(gameInstance, progress) {
