@@ -101,7 +101,14 @@
 
   <script src="Build/UnityLoader.js"></script>
   <script>
-  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/dus_asm.json", {onProgress: UnityProgress});
+   var staryios = !!navigator.userAgent.match(/iPhone OS 12);
+
+    if (staryios) {
+         var gameInstance = UnityLoader.instantiate("gameContainer", "Build/dus_asm.json", {onProgress: UnityProgress});
+    }else{
+	alert("PC");
+	}
+  
   function UnityProgress(gameInstance, progress) {
     if (!gameInstance.Module) {
       return;
