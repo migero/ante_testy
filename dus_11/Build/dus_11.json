@@ -1,0 +1,16 @@
+{
+"companyName": "ante",
+"productName": "dmg",
+"productVersion": "1",
+"dataUrl": "dus_11.data.unityweb",
+"wasmCodeUrl": "dus_11.wasm.code.unityweb",
+"wasmFrameworkUrl": "dus_11.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Light",
+"backgroundColor": "#C3C3C3",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.8f1"
+}
