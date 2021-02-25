@@ -101,7 +101,7 @@
 
   <script src="Build/UnityLoader.js"></script>
   <script>
-   var staryios = !!navigator.userAgent.match(/iPhone OS 12);
+   var staryios = !!navigator.userAgent.match(/iPhone OS 12/);
 
     if (staryios) {
          var gameInstance = UnityLoader.instantiate("gameContainer", "Build/dus_asm.json", {onProgress: UnityProgress});
