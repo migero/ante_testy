@@ -1,0 +1,18 @@
+{
+"companyName": "DefaultCompany",
+"productName": "wegbl_2019",
+"productVersion": "0.1",
+"dataUrl": "test_asm.data.unityweb",
+"asmCodeUrl": "test_asm.asm.code.unityweb",
+"asmMemoryUrl": "test_asm.asm.memory.unityweb",
+"asmFrameworkUrl": "test_asm.asm.framework.unityweb",
+"TOTAL_MEMORY": 134217728,
+"graphicsAPI": ["WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.8f1"
+}
